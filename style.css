@@ -1,0 +1,68 @@
+body {
+    background-color: antiquewhite;
+    margin: 40px
+}
+h1 {
+    text-align: center;
+}
+h1:hover { 
+    color: gray;
+}
+p {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 130;
+    color: navy;
+    display: block;
+    
+}
+#one {
+  display: block; 
+border: 1px solid red;
+ font-size: 40px;
+ width: 150px;
+ height: 150px;
+ background-image: url(https://www.otpegeszsegpenztar.hu/static/otpegeszseg/sw/pic/Gyogyszerek_hero/gyogyszerek_mobile.jpg);
+ background-size: cover;
+width: 50%;
+    
+}
+button:hover{
+    transform:scale(1.1);
+    color:white;
+}
+.link {
+    text-decoration: none;
+}
+.button-container {
+    display:flex;
+    
+}
+#two {
+    width:fit-content;
+    border:none;
+    width:100%;
+    background-color: gray;
+    }
+
+h2{ text-align: center;
+
+
+}
+#kivetel {
+    text-decoration:underline;
+}
+#l {
+    text-decoration:underline;
+}
+#l:hover {
+    color: white
+}
+ol, ul {
+    text-align: center;
+    list-style-type: none;
+}
+hr {
+    border: 2.5px solid navy;
+}
